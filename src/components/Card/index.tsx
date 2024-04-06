@@ -1,0 +1,20 @@
+import Image from "next/image";
+import styles from "./styles.module.scss";
+import { CardInfo } from "@/models/card";
+
+const Card = ({ name, image, status }: CardInfo) => {
+  return (
+    <div className={styles.card}>
+      <Image src={image} alt={name} width={200} height={200} />
+      <div className={styles.info}>
+        <p className={styles.name}>{name}</p>
+        <p className={styles.status}>
+            <div className={styles.statusIcon} style={{ backgroundColor: status === "Alive" ? "green" : status === "Dead" ? "red" : "gray" }}></div>
+            {status === "Alive" ? "Vivo" : status === "Dead" ? "Morto" : "Desconhecido"}
+            </p>
+      </div>
+    </div>
+  );
+};
+
+export default Card;
