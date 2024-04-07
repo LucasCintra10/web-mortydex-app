@@ -1,25 +1,31 @@
 import Image from "next/image";
 import styles from "./styles.module.scss";
-import { CardInfo } from "@/models/card";
+import { Character } from "@/models/card";
 import { motion } from "framer-motion";
 
-const Card = ({ name, image, status }: CardInfo) => {
+interface CardProps {
+  key: number;
+  character: Character;
+}
+
+const Card = ({ key, character }: CardProps)  => {
   return (
-    <motion.div
-    initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    transition={{ duration: 1 }}
-    >
-    <div className={styles.card}>
-      <Image src={image} alt={name} width={200} height={200} />
-      <div className={styles.info}>
-        <p className={styles.name}>{name}</p>
-        <p className={styles.status}>
-            <div className={styles.statusIcon} style={{ backgroundColor: status === "Alive" ? "green" : status === "Dead" ? "red" : "gray" }}></div>
-            {status === "Alive" ? "Vivo" : status === "Dead" ? "Morto" : "Desconhecido"}
-            </p>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
+      <div className={styles.card} key={key}>
+        <Image src={character.image} alt={character.name} width={100} height={100} className={styles.image} />
+        <div className={styles.info}>
+          <p className={styles.name}>{character.name}</p>
+          <p className={styles.species}>{character.species}</p>
+          <p className={styles.origin}>{character.origin.name}</p>
+          <p className={styles.status}>
+            <div
+              className={styles.statusIcon}
+              style={{ backgroundColor: character.status === "Alive" ? "green" : character.status === "Dead" ? "red" : "gray" }}
+            ></div>
+            {character.status}
+          </p>
+        </div>
       </div>
-    </div>
     </motion.div>
   );
 };

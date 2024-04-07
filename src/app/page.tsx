@@ -4,6 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import styles from "./page.module.scss";
 import Card from "@/components/Card";
 import Loader from "@/components/Loader";
+import { Character } from "@/models/card";
 
 export default function Home() {
   const { data, isLoading, isError } = useQuery({
@@ -15,8 +16,8 @@ export default function Home() {
     <main className={styles.main}>
       {isLoading && <Loader />}
       {isError && <p>Error</p>}
-      {data?.results.map((character: any) => (
-        <Card key={character.id} name={character.name} image={character.image} status={character.status} />
+      {data?.results.map((character: Character, index: number) => (
+        <Card key={index} character={character} />
       ))}
     </main>
   );
