@@ -2,14 +2,14 @@
   width: 200px;
   height: 300px;
   background-color: #b7f4f9ff;
-  border-radius: 10px;
+  border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
   }
 }
 
