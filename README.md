@@ -2,22 +2,29 @@
 
 Este é um projeto desenvolvido com Next.js versão 14, uma poderosa estrutura React para a construção de interfaces de usuário com JavaScript e React.
 
-Deploy da aplicação: 
+**Deploy da aplicação**: https://web-mortydex.vercel.app/
 
 ### Bibliotecas
 
 Bibliotecas utilizadas Este projeto faz uso de várias bibliotecas para melhorar a experiência do desenvolvedor e a eficiência do código. Aqui estão algumas das principais bibliotecas que estamos usando:
 
-- React Query: Uma biblioteca para buscar, sincronizar e atualizar dados do servidor em aplicativos React.
+- **React Query**: Uma biblioteca para buscar, sincronizar e atualizar dados do servidor em aplicativos React.
 
-- Framer Motion: Uma biblioteca de animação e gestos de produção para React.
+- **Framer Motion**: Uma biblioteca de animação e gestos de produção para React.
 
-- Axios: Uma biblioteca para fazer solicitações HTTP de maneira fácil e eficiente.
+- **Axios**: Uma biblioteca para fazer solicitações HTTP de maneira fácil e eficiente.
 
 ### Como iniciar
 
 Como começar Para começar a trabalhar neste projeto, siga estas etapas:
 
- 1.Clone o repositório para sua máquina local. 
- 2.Instale as dependências do projeto com npm install. 
- 3.Inicie o servidor de desenvolvimento com npm run dev. 
+ 1. Clone o repositório para sua máquina local. 
+
+ 2. Instale as dependências do projeto com``` npm install  ou yarn install```. 
+
+ 3. Inicie o servidor de desenvolvimento com``` npm run dev ou yarn run dev ```. 
+
+ ### Imagens
+
+ ![Pagina home do site](https://prnt.sc/OoOS1-HwPOxY)
+ ![Pagina do personagem](https://prnt.sc/5TaijuOwqNrW)
