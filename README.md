@@ -24,7 +24,11 @@ Como começar Para começar a trabalhar neste projeto, siga estas etapas:
 
 ``` 
     npm install 
+
+```
         ou 
+
+```       
     yarn install
 
 ``` 
@@ -33,7 +37,12 @@ Como começar Para começar a trabalhar neste projeto, siga estas etapas:
 
 ``` 
     npm run dev 
-        ou 
+
+```
+
+        ou
+
+``` 
     yarn run dev
 
 ```
@@ -41,4 +50,7 @@ Como começar Para começar a trabalhar neste projeto, siga estas etapas:
  ### ------------------------------------------------------------------------------------------------------------
 
  ![Pagina home do site](/public/print-home.png)
+
+ ### ------------------------------------------------------------------------------------------------------------
+
  ![Pagina do personagem](/public/print-page.png)
