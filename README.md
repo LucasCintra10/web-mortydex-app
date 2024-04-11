@@ -24,7 +24,7 @@ Como começar Para começar a trabalhar neste projeto, siga estas etapas:
 
 ```npm install```
 
-        ou 
+ou 
 
 ```yarn install``` 
 
@@ -32,7 +32,7 @@ Como começar Para começar a trabalhar neste projeto, siga estas etapas:
 
 ```npm run dev```
 
-        ou
+ou
 
 ```yarn run dev```
 
