@@ -10,9 +10,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Mortydex",
   description: "Desenvolvido por Lucas Cintra",
-  icons: {
-    icon: "/favicon.ico",
-  }
 };
 
 export default function RootLayout({
