@@ -6,7 +6,7 @@ Este é um projeto desenvolvido com Next.js versão 14, uma poderosa estrutura R
 
 ### Bibliotecas
 
-Bibliotecas utilizadas Este projeto faz uso de várias bibliotecas para melhorar a experiência do desenvolvedor e a eficiência do código. Aqui estão algumas das principais bibliotecas que estamos usando:
+Este projeto faz uso de várias bibliotecas para melhorar a experiência de desenvolvimento e a eficiência do código. Aqui estão algumas das principais bibliotecas que estamos usando:
 
 - **React Query**: Uma biblioteca para buscar, sincronizar e atualizar dados do servidor em aplicativos React.
 
@@ -21,20 +21,24 @@ Como começar Para começar a trabalhar neste projeto, siga estas etapas:
  1. Clone o repositório para sua máquina local. 
 
  2. Instale as dependências do projeto com:
- 
-``` npm install 
+
+``` 
+    npm install 
         ou 
     yarn install
+
 ``` 
 
  3. Inicie o servidor de desenvolvimento com:
 
-``` npm run dev 
+``` 
+    npm run dev 
         ou 
-    yarn run dev 
+    yarn run dev
+
 ```
 
- ### ---------------------------------------------------------------------------------------------------------------------------------------------------------
+ ### ------------------------------------------------------------------------------------------------------------
 
  ![Pagina home do site](/public/print-home.png)
  ![Pagina do personagem](/public/print-page.png)
