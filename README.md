@@ -22,30 +22,19 @@ Como começar Para começar a trabalhar neste projeto, siga estas etapas:
 
  2. Instale as dependências do projeto com:
 
-``` 
-    npm install 
+```npm install```
 
-```
         ou 
 
-```       
-    yarn install
-
-``` 
+```yarn install``` 
 
  3. Inicie o servidor de desenvolvimento com:
 
-``` 
-    npm run dev 
-
-```
+```npm run dev```
 
         ou
 
-``` 
-    yarn run dev
-
-```
+```yarn run dev```
 
  ### ------------------------------------------------------------------------------------------------------------
 
