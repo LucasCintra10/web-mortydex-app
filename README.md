@@ -26,5 +26,5 @@ Como começar Para começar a trabalhar neste projeto, siga estas etapas:
 
  ### Imagens
 
- ![Pagina home do site](https://prnt.sc/OoOS1-HwPOxY)
- ![Pagina do personagem](https://prnt.sc/5TaijuOwqNrW)
+ ![Pagina home do site](/public/print-home.png)
+ ![Pagina do personagem](/public/print-page.png)
