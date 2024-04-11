@@ -6,7 +6,7 @@
     min-height: 70vh;
   }
   .card {
-    width: 90%;
+    width: 300px;
     display: flex;
     flex-direction: column;
     background-color: #97ce4c;
@@ -38,6 +38,7 @@
       flex-direction: column;
       justify-content: space-between;
       gap: 1rem;
+      margin-bottom: 1rem;
 
       p {
         margin: 0;
