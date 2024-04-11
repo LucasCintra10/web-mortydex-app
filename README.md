@@ -20,11 +20,21 @@ Como começar Para começar a trabalhar neste projeto, siga estas etapas:
 
  1. Clone o repositório para sua máquina local. 
 
- 2. Instale as dependências do projeto com``` npm install  ou yarn install```. 
+ 2. Instale as dependências do projeto com:
+ 
+``` npm install 
+        ou 
+    yarn install
+``` 
 
- 3. Inicie o servidor de desenvolvimento com``` npm run dev ou yarn run dev ```. 
+ 3. Inicie o servidor de desenvolvimento com:
 
- ### Imagens
+``` npm run dev 
+        ou 
+    yarn run dev 
+```
+
+ ### ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
  ![Pagina home do site](/public/print-home.png)
  ![Pagina do personagem](/public/print-page.png)
